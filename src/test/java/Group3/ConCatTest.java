@@ -9,8 +9,7 @@ public class ConCatTest {
 	@Test
 	public void ConCatingTest() {
 		ConCat junit= new ConCat();
-		String result = junit.ConCating("Hello", "World");
+		String result = junit.ConCating("Hello ", "World");
 		assertEquals("Hello World", result);
 	}
-
 }

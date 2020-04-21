@@ -8,11 +8,11 @@ public class Calculator {
 	}
 	
 	public int sub(int a, int b) {
-		return 0;
+		return a-b;
 	}
 	
 	public int mul (int a, int b) {
-		return 0;
+		return a*b;
 	}
 	
 	public int div (int a, int b) {
@@ -20,10 +20,10 @@ public class Calculator {
 			throw new IllegalArgumentException("Number Cannot be divided by zero!");
 		}
 		
-		return 0;
+		return a/b;
 	}
 	
 	public int square(int a) {
-		return 0;
+		return a*a;
 	}
 }
