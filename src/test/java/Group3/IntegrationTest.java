@@ -12,10 +12,10 @@ public class IntegrationTest {
 	public void INtegrationKeyTest() {
 		LockUnlock junit = new LockUnlock ();
 		junit.SetName("Name");
-		junit.SetId(50);
-		junit.SetSecret(5);
+		junit.SetId(10);
+		junit.SetSecret(2);
 		
-		Lock lock= new Lock (250);
+		Lock lock= new Lock (20);
 		assertEquals (true, lock.Unlock(junit.CalculateKey()));
 		assertEquals (false, lock.isLocked());
 		
